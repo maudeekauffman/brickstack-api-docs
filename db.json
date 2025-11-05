@@ -1,0 +1,395 @@
+{
+  "sets": [
+    {
+      "id": 1,
+      "setNumber": "10234",
+      "name": "Sydney Opera House",
+      "theme": "Creator Expert",
+      "pieces": 1929,
+      "minifigures": 0,
+      "releaseYear": 2013,
+      "ageRange": "16+",
+      "price": 324.99,
+      "retired": true,
+      "tags": ["architecture", "landmark", "australia"]
+    },
+    {
+      "id": 2,
+      "setNumber": "10307",
+      "name": "Eiffel Tower",
+      "theme": "Icons",
+      "pieces": 10001,
+      "minifigures": 0,
+      "releaseYear": 2022,
+      "ageRange": "18+",
+      "price": 629.99,
+      "retired": false,
+      "tags": ["architecture", "landmark", "paris", "record breaker"]
+    },
+    {
+      "id": 3,
+      "setNumber": "21061",
+      "name": "Notre-Dame de Paris",
+      "theme": "Architecture",
+      "pieces": 4383,
+      "minifigures": 0,
+      "releaseYear": 2021,
+      "ageRange": "18+",
+      "price": 229.99,
+      "retired": false,
+      "tags": ["architecture", "cathedral", "paris", "historical"]
+    },
+    {
+      "id": 4,
+      "setNumber": "21335",
+      "name": "Motorized Lighthouse",
+      "theme": "Ideas",
+      "pieces": 2065,
+      "minifigures": 6,
+      "releaseYear": 2022,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["lighthouse", "motorized", "coastal", "lights"]
+    },
+    {
+      "id": 5,
+      "setNumber": "21353",
+      "name": "The Botanical Garden",
+      "theme": "Ideas",
+      "pieces": 3792,
+      "minifigures": 12,
+      "releaseYear": 2024,
+      "ageRange": "18+",
+      "price": 299.99,
+      "retired": false,
+      "tags": ["plants", "garden", "modular", "detailed"]
+    },
+    {
+      "id": 6,
+      "setNumber": "10326",
+      "name": "Natural History Museum",
+      "theme": "Icons",
+      "pieces": 4014,
+      "minifigures": 12,
+      "releaseYear": 2023,
+      "ageRange": "18+",
+      "price": 299.99,
+      "retired": false,
+      "tags": ["museum", "dinosaurs", "educational", "modular"]
+    },
+    {
+      "id": 7,
+      "setNumber": "43222",
+      "name": "Disney Castle",
+      "theme": "Disney",
+      "pieces": 4837,
+      "minifigures": 5,
+      "releaseYear": 2023,
+      "ageRange": "18+",
+      "price": 399.99,
+      "retired": false,
+      "tags": ["disney", "castle", "princess", "detailed"]
+    },
+    {
+      "id": 8,
+      "setNumber": "71040",
+      "name": "Disney Castle",
+      "theme": "Disney",
+      "pieces": 4080,
+      "minifigures": 5,
+      "releaseYear": 2016,
+      "ageRange": "16+",
+      "price": 349.99,
+      "retired": true,
+      "tags": ["disney", "castle", "cinderella", "iconic"]
+    },
+    {
+      "id": 9,
+      "setNumber": "21344",
+      "name": "The Orient Express Train",
+      "theme": "Ideas",
+      "pieces": 2540,
+      "minifigures": 20,
+      "releaseYear": 2023,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["train", "luxury", "historical", "mystery"]
+    },
+    {
+      "id": 10,
+      "setNumber": "10297",
+      "name": "Boutique Hotel",
+      "theme": "Creator Expert",
+      "pieces": 3066,
+      "minifigures": 8,
+      "releaseYear": 2022,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["modular", "art deco", "hotel", "street"]
+    },
+    {
+      "id": 11,
+      "setNumber": "10312",
+      "name": "Jazz Club",
+      "theme": "Icons",
+      "pieces": 2899,
+      "minifigures": 8,
+      "releaseYear": 2023,
+      "ageRange": "18+",
+      "price": 229.99,
+      "retired": false,
+      "tags": ["modular", "music", "1920s", "entertainment"]
+    },
+    {
+      "id": 12,
+      "setNumber": "10350",
+      "name": "Tudor Corner",
+      "theme": "Icons",
+      "pieces": 3266,
+      "minifigures": 10,
+      "releaseYear": 2024,
+      "ageRange": "18+",
+      "price": 229.99,
+      "retired": false,
+      "tags": ["modular", "medieval", "tudor", "detailed"]
+    },
+    {
+      "id": 13,
+      "setNumber": "10270",
+      "name": "Bookshop",
+      "theme": "Creator Expert",
+      "pieces": 2504,
+      "minifigures": 5,
+      "releaseYear": 2020,
+      "ageRange": "16+",
+      "price": 179.99,
+      "retired": true,
+      "tags": ["modular", "books", "cozy", "townhouse"]
+    },
+    {
+      "id": 14,
+      "setNumber": "10273",
+      "name": "Haunted House",
+      "theme": "Creator Expert",
+      "pieces": 3231,
+      "minifigures": 6,
+      "releaseYear": 2020,
+      "ageRange": "18+",
+      "price": 249.99,
+      "retired": true,
+      "tags": ["modular", "spooky", "fairground", "halloween"]
+    },
+    {
+      "id": 15,
+      "setNumber": "21341",
+      "name": "Hocus Pocus: The Sanderson Sisters' Cottage",
+      "theme": "Ideas",
+      "pieces": 2316,
+      "minifigures": 3,
+      "releaseYear": 2022,
+      "ageRange": "18+",
+      "price": 229.99,
+      "retired": false,
+      "tags": ["disney", "movie", "halloween", "witches"]
+    },
+    {
+      "id": 16,
+      "setNumber": "43242",
+      "name": "Snow White's Cottage",
+      "theme": "Disney",
+      "pieces": 2228,
+      "minifigures": 8,
+      "releaseYear": 2024,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["disney", "princess", "cottage", "forest"]
+    },
+    {
+      "id": 17,
+      "setNumber": "71043",
+      "name": "Hogwarts Castle",
+      "theme": "Harry Potter",
+      "pieces": 6020,
+      "minifigures": 4,
+      "releaseYear": 2018,
+      "ageRange": "16+",
+      "price": 469.99,
+      "retired": true,
+      "tags": ["harry potter", "castle", "school", "magical"]
+    },
+    {
+      "id": 18,
+      "setNumber": "21354",
+      "name": "Twilight",
+      "theme": "Ideas",
+      "pieces": 2001,
+      "minifigures": 3,
+      "releaseYear": 2024,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["movie", "vampire", "forest", "house"]
+    },
+    {
+      "id": 19,
+      "setNumber": "43225",
+      "name": "The Little Mermaid Royal Clamshell",
+      "theme": "Disney",
+      "pieces": 1808,
+      "minifigures": 3,
+      "releaseYear": 2023,
+      "ageRange": "18+",
+      "price": 149.99,
+      "retired": false,
+      "tags": ["disney", "mermaid", "underwater", "book"]
+    },
+    {
+      "id": 20,
+      "setNumber": "21338",
+      "name": "A-Frame Cabin",
+      "theme": "Ideas",
+      "pieces": 2082,
+      "minifigures": 3,
+      "releaseYear": 2022,
+      "ageRange": "18+",
+      "price": 179.99,
+      "retired": false,
+      "tags": ["cabin", "nature", "cozy", "forest"]
+    },
+    {
+      "id": 21,
+      "setNumber": "10335",
+      "name": "The Endurance",
+      "theme": "Icons",
+      "pieces": 3011,
+      "minifigures": 0,
+      "releaseYear": 2024,
+      "ageRange": "18+",
+      "price": 269.99,
+      "retired": false,
+      "tags": ["ship", "historical", "exploration", "antarctic"]
+    },
+    {
+      "id": 22,
+      "setNumber": "10255",
+      "name": "Assembly Square",
+      "theme": "Creator Expert",
+      "pieces": 4002,
+      "minifigures": 8,
+      "releaseYear": 2017,
+      "ageRange": "16+",
+      "price": 279.99,
+      "retired": true,
+      "tags": ["modular", "anniversary", "street", "detailed"]
+    },
+    {
+      "id": 23,
+      "setNumber": "21332",
+      "name": "The Globe",
+      "theme": "Ideas",
+      "pieces": 2585,
+      "minifigures": 3,
+      "releaseYear": 2023,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["shakespeare", "theatre", "london", "historical"]
+    },
+    {
+      "id": 24,
+      "setNumber": "21327",
+      "name": "Typewriter",
+      "theme": "Ideas",
+      "pieces": 2079,
+      "minifigures": 0,
+      "releaseYear": 2021,
+      "ageRange": "18+",
+      "price": 199.99,
+      "retired": false,
+      "tags": ["vintage", "functional", "writing", "nostalgia"]
+    }
+  ],
+  "themes": [
+    {
+      "id": 1,
+      "name": "Creator Expert",
+      "description": "Modular buildings and expert-level builds"
+    },
+    {
+      "id": 2,
+      "name": "Icons",
+      "description": "Iconic builds for adult collectors"
+    },
+    {
+      "id": 3,
+      "name": "Ideas",
+      "description": "Fan-designed sets voted by the LEGO community"
+    },
+    {
+      "id": 4,
+      "name": "Architecture",
+      "description": "Architectural landmarks and buildings"
+    },
+    {
+      "id": 5,
+      "name": "Disney",
+      "description": "Sets based on Disney movies and characters"
+    },
+    {
+      "id": 6,
+      "name": "Harry Potter",
+      "description": "Sets from the wizarding world"
+    }
+  ],
+  "collection": [
+    {
+      "id": 1,
+      "userId": 1,
+      "setId": 2,
+      "purchaseDate": "2023-01-15",
+      "condition": "Built",
+      "location": "Display Room",
+      "notes": "Tallest LEGO set ever made"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "setId": 17,
+      "purchaseDate": "2019-12-25",
+      "condition": "Built",
+      "location": "Office",
+      "notes": "Harry Potter collection centerpiece"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "setId": 22,
+      "purchaseDate": "2018-06-10",
+      "condition": "Built",
+      "location": "Display Room",
+      "notes": "10th anniversary modular"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "setId": 10,
+      "purchaseDate": "2022-08-20",
+      "condition": "Built",
+      "location": "Display Room",
+      "notes": "Part of modular collection"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "setId": 14,
+      "purchaseDate": "2020-10-15",
+      "condition": "Built",
+      "location": "Display Room",
+      "notes": "Perfect for Halloween display"
+    }
+  ]
+}
