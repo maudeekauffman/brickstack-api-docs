@@ -1,4 +1,14 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Maudie Kauffman",
+      "email": "maudie@example.com",
+      "joinDate": "2020-01-15",
+      "collectionSize": 24,
+      "favoriteTheme": "Icons"
+    }
+  ],
   "sets": [
     {
       "id": 1,
