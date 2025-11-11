@@ -33,7 +33,7 @@ Base endpoint:
 {server_url}/collection
 ```
 
-Contains information about personal LEGO collections for users.
+Contains information about personal LEGO collections for users on the BrickStack API.
 
 ## Resource properties
 
