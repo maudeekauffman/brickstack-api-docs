@@ -33,7 +33,7 @@ Base endpoint:
 {server_url}/sets
 ```
 
-Contains information about available LEGO sets.
+Contains information about available LEGO sets in the BrickStack API.
 
 ## Resource properties
 
@@ -67,7 +67,7 @@ Sample `sets` resource
 | `ageRange` | string | The recommended age for use of the LEGO set |
 | `price` | string | The cost of the LEGO set in USD currency |
 | `retired` | boolean | If the LEGO set has been retired from circulation |
-| `tags` | string | Associated tags of the LEGO resource |
+| `tags` | array | Associated tags of the LEGO resource, more than one can be used |
 
 ## READ
 

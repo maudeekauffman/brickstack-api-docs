@@ -33,14 +33,13 @@ Base endpoint:
 {server_url}/themes
 ```
 
-Contains information about LEGO set themes / series.
+Contains information about LEGO set themes / series for the BrickStack API.
 
 ## Resource properties
 
 Sample `themes` resource
 
 ```js
-
 {
       "id": 4,
       "name": "Architecture",
