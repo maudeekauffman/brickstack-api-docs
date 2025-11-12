@@ -108,4 +108,4 @@ GET http://localhost:3000/sets/1
 | 200 | Success | Requested data returned successfully |
 | 400 | Bad Request | There is an error with the format of the request |
 | ERROR | ECONNREFUSED | The local server is not running (Postman) |
-| Failed to connect | Failed to connect | The local server is not running (terminal / similar app)|
+| Failed to connect | Failed to connect | The local server is not running (terminal / similar app) |

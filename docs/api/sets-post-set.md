@@ -65,7 +65,7 @@ curl -X POST http://localhost:3000/sets/ \
 
 ### cURL response
 
-The response will be shown on your instance of the terminal that is running the server:
+The response displays on the instance of the terminal that is running the server:
 
 ```shell
 POST /sets/ 201 34.494 ms - 264
@@ -111,7 +111,7 @@ The response will display the set that you just posted.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 200 | Success | Requested data returned successfully |
+| 200 | Success | Request to POST processed successfully |
 | 400 | Bad Request | There is an error with the format of the request |
 | ERROR | ECONNREFUSED | The local server is not running (Postman) |
-| Failed to connect | Failed to connect | The local server is not running (terminal / similar app)|
+| Failed to connect | Failed to connect | The local server is not running (terminal / similar app) |
