@@ -2,10 +2,10 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: sets resource
+parent: users resource
 nav_order: 1
 # tags used by AI files
-description: PATCH existing `set` to the sets resource
+description: PATCH existing `user` to the users resource
 tags:
     - api
 categories:
@@ -13,20 +13,20 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/sets
+    - /api/users
 related_pages: []
 examples: []
 api_endpoints: 
-    - PATCH /sets
+    - PATCH /users
 version: "v1.0"
 last_updated: "2025-12-11"
 # vale  on
 # markdownlint-enable
 ---
 
-# Patch existing set
+# Patch existing user
 
-Partially updates an existing set in the [`sets`](./sets.md) resource.
+Partially updates an existing user in the [`users`](users.md) resource.
 
 As opposed to the `PUT` request or `POST` request,
 a `PATCH` request only updates the entered attributes.
@@ -35,21 +35,20 @@ You do not need to enter all attributes to send a `PATCH` request.
 ## URL
 
 ```shell
-{server_url}/sets
+{server_url}/users
 ```
 
 ## cURL example
 
-Patch an existing set. The changed values overwrite the existing values.
+Patch an existing user. The changed values overwrite the existing values.
 
 ### cURL command
 
 ```shell
-curl -X PATCH http://localhost:3000/sets/27 \
+curl -X PATCH http://localhost:3000/users/2 \
   -H "Content-Type: application/json" \
   -d '{
-    "pieces": 1850,
-    "releaseYear": 2022
+    "joinDate": "2025-12-12"    
   }'
 ```
 
@@ -61,57 +60,39 @@ contains all the attributes of the resource.
 
 ```json
 {
-  "id": 27,
-  "setNumber": "10236",
-  "name": "Shell Gas Station",
-  "theme": "City",
-  "pieces": 1850,
-  "minifigures": 5,
-  "releaseYear": 2022,
-  "ageRange": "16+",
-  "price": 200,
-  "retired": false,
-  "tags": [
-    "city",
-    "store",
-    "vehicles"
-  ]
+  "id": 2,
+  "name": "Scott Miller",
+  "email": "scott@example.com",
+  "joinDate": "2025-12-12",
+  "collectionSize": 100,
+  "favoriteTheme": "Icons"
 }
 ```
 
 ## Postman example
 
-Patch an existing set. The changed values overwrite the existing values.
+Patch an existing user. The changed values overwrite the existing values.
 
 ### Request
 
 **Method**:
 
 ```shell
-PATCH http://localhost:3000/sets/27
+PATCH http://localhost:3000/users/2
 ```
 
 ### Postman response
 
-The response will display the set that you just patched.
+The response will display the user that you just patched.
 
 ```json
 {
-    "id": 27,
-    "setNumber": "10236",
-    "name": "Shell Gas Station",
-    "theme": "City",
-    "pieces": 1715,
-    "minifigures": 5,
-    "releaseYear": 2025,
-    "ageRange": "16+",
-    "price": 200,
-    "retired": false,
-    "tags": [
-        "city",
-        "store",
-        "vehicles"
-    ]
+    "id": 2,
+    "name": "Scott Miller",
+    "email": "scott@example.com",
+    "joinDate": "2020-12-12",
+    "collectionSize": 101,
+    "favoriteTheme": "Icons"
 }
 ```
 

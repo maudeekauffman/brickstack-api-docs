@@ -24,7 +24,7 @@ last_updated: "2025-12-11"
 # markdownlint-enable
 ---
 
-# Post new set
+# Put existing set
 
 Updates an existing set in the [`sets`](./sets.md) resource.
 
@@ -41,18 +41,18 @@ Put an existing set. The changed values overwrite the existing values.
 ### cURL command
 
 ```shell
-curl -X POST http://localhost:3000/sets/ \
+curl -X PUT http://localhost:3000/sets/27 \
   -H "Content-Type: application/json" \
   -d '{
-    "id": 30,
-    "setNumber": "10236",
+    "id": 27,
+    "setNumber": "10400",
     "name": "Shell Gas Station",
     "theme": "City",
     "pieces": 1700,
     "minifigures": 5,
     "releaseYear": 2025,
     "ageRange": "16+",
-    "price": 200,
+    "price": 250,
     "retired": false,
     "tags": [
       "city",
@@ -100,7 +100,7 @@ PUT http://localhost:3000/sets/27
 
 ### Postman response
 
-The response will display the set that you just posted.
+The response will display the set that you just put.
 
 ```json
 {
@@ -128,6 +128,6 @@ The response will display the set that you just posted.
 | ------------- | ----------- | ----------- |
 | 200 | Success | Request to POST processed successfully |
 | 400 | Bad Request | There is an error with the format of the request |
-| 404 | Not found | The set ID does not exist |
+| 404 | Not found | The ID does not exist |
 | ERROR | ECONNREFUSED | The local server is not running (Postman) |
 | Failed to connect | Failed to connect | The local server is not running (terminal / similar app) |

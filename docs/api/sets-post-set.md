@@ -26,8 +26,7 @@ last_updated: "2025-12-11"
 
 # Post new set
 
-Returns results for the [`sets`](./sets.md) resource.
-The results will contain all LEGO sets that are stored in the API.
+Posts a new LEGO set to the [`sets`](./sets.md) resource.
 
 ## URL
 
@@ -65,10 +64,26 @@ curl -X POST http://localhost:3000/sets/ \
 
 ### cURL response
 
-The response displays on the instance of the terminal that is running the server:
+The response displays:
 
-```shell
-POST /sets/ 201 34.494 ms - 264
+```json
+{
+    "id": 30,
+    "setNumber": "10236",
+    "name": "Texaco Gas Station",
+    "theme": "City",
+    "pieces": 1700,
+    "minifigures": 5,
+    "releaseYear": 2025,
+    "ageRange": "16+",
+    "price": 200,
+    "retired": false,
+    "tags": [
+        "city",
+        "store",
+        "vehicles"
+    ]
+}
 ```
 
 ## Postman example
@@ -113,5 +128,6 @@ The response will display the set that you just posted.
 | ------------- | ----------- | ----------- |
 | 200 | Success | Request to POST processed successfully |
 | 400 | Bad Request | There is an error with the format of the request |
+| ERROR | Insert failed, duplicate ID | The ID already exists |
 | ERROR | ECONNREFUSED | The local server is not running (Postman) |
 | Failed to connect | Failed to connect | The local server is not running (terminal / similar app) |

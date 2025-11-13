@@ -2,10 +2,10 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: sets resource
+parent: users resource
 nav_order: 1
 # tags used by AI files
-description: DELETE one `set` from the sets resource
+description: DELETE one `user` from the users resource
 tags:
     - api
 categories:
@@ -13,35 +13,35 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/sets
+    - /api/users
 related_pages: []
 examples: []
 api_endpoints: 
-    - DELETE /sets
+    - DELETE /users
 version: "v1.0"
 last_updated: "2025-12-11"
 # vale  on
 # markdownlint-enable
 ---
 
-# Delete one set
+# Delete one user
 
-Deletes one LEGO set from the [`sets`](./sets.md) resource.
+Deletes one user from the [`users`](users.md) resource.
 
 ## URL
 
 ```shell
-{server_url}/sets
+{server_url}/users
 ```
 
 ## cURL example
 
-Delete one specific set.
+Delete one specific user.
 
 ### cURL command
 
 ```shell
-curl -X DELETE http://localhost:3000/sets/24
+curl -X DELETE http://localhost:3000/users/2
 ```
 
 ### cURL response
@@ -49,19 +49,19 @@ curl -X DELETE http://localhost:3000/sets/24
 The response displays on the instance of the terminal that is running the server:
 
 ```shell
-DELETE /sets/24 200 32.218 ms - 2
+DELETE /users/2 200 11.104 ms - 2
 ```
 
 ## Postman example
 
-Delete one specific set.
+Delete one specific user.
 
 ### Request
 
 **Method**:
 
 ```shell
-DELETE http://localhost:3000/sets/24
+DELETE http://localhost:3000/users/3
 ```
 
 ### Postman response

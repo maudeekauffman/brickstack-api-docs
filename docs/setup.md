@@ -51,7 +51,7 @@ long-term support, also known as _LTS_, version of the Windows, MacOS, or Linux 
         do your tutorials. Create a new branch for each tutorial to prevent a mistake in one from
         affecting your work in another.
 - The [Postman desktop app](https://www.postman.com/downloads/).
-        Because you run the **To-Do Service** on your development system with an `http://localhost`
+        Because you run the **BrickStack Service** on your development system with an `http://localhost`
         host name, the web-version of Postman can't perform the exercises.
   
 <!-- vale Google.Acronyms = YES -->
@@ -65,12 +65,12 @@ Your `GitHub repository workspace` is the directory that contains your fork of
 the `brickstack-api-docs` repository.
 
     ```shell
-    cd <your GitHub repository workspace>
+    cd `your GitHub repository workspace`
     ls
     # (see the BrickStack directory in the list)
     cd brickstac-api-docs
     cd api
-    json-server -w to-do-db-source.json
+    json-server -w db.json
     ```
 
 If you installed the software correctly, you should see

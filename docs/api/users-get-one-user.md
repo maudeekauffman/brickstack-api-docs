@@ -2,10 +2,10 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: sets resource
+parent: users resource
 nav_order: 1
 # tags used by AI files
-description: GET one `set` from the sets resource
+description: GET one `user` from the users resource
 tags:
     - api
 categories:
@@ -13,36 +13,36 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/sets
+    - /api/users
 related_pages: []
 examples: []
 api_endpoints: 
-    - GET /sets
+    - GET /users
 version: "v1.0"
 last_updated: "2025-12-11"
 # vale  on
 # markdownlint-enable
 ---
 
-# Get one set
+# Get one user
 
-Returns one result for the [`sets`](./sets.md) resource.
-The results will contain one LEGO set that is stored in the API.
+Returns one result for the [`users`](users.md) resource.
+The results will contain one user that is stored in the API.
 
 ## URL
 
 ```shell
-{server_url}/sets
+{server_url}/users
 ```
 
 ## cURL example
 
-Get a specific set.
+Get a specific user.
 
 ### cURL command
 
 ```shell
-curl http://localhost:3000/sets/1
+curl http://localhost:3000/users/1
 ```
 
 ### cURL response
@@ -50,33 +50,24 @@ curl http://localhost:3000/sets/1
 ```json
 {
   "id": 1,
-  "setNumber": "10234",
-  "name": "Sydney Opera House",
-  "theme": "Creator Expert",
-  "pieces": 1929,
-  "minifigures": 0,
-  "releaseYear": 2013,
-  "ageRange": "16+",
-  "price": 324.99,
-  "retired": true,
-  "tags": [
-    "architecture",
-    "landmark",
-    "australia"
-  ]
+  "name": "Maudie Kauffman",
+  "email": "maudie@example.com",
+  "joinDate": "2020-01-15",
+  "collectionSize": 24,
+  "favoriteTheme": "Icons"
 }
 ```
 
 ## Postman example
 
-Get a specific set.
+Get a specific user.
 
 ### Request
 
 **Method**:
 
 ```shell
-GET http://localhost:3000/sets/1
+GET http://localhost:3000/users/1
 ```
 
 ### Postman response
@@ -84,20 +75,11 @@ GET http://localhost:3000/sets/1
 ```json
 {
     "id": 1,
-    "setNumber": "10234",
-    "name": "Sydney Opera House",
-    "theme": "Creator Expert",
-    "pieces": 1929,
-    "minifigures": 0,
-    "releaseYear": 2013,
-    "ageRange": "16+",
-    "price": 324.99,
-    "retired": true,
-    "tags": [
-        "architecture",
-        "landmark",
-        "australia"
-    ]
+    "name": "Maudie Kauffman",
+    "email": "maudie@example.com",
+    "joinDate": "2020-01-15",
+    "collectionSize": 24,
+    "favoriteTheme": "Icons"
 }
 ```
 

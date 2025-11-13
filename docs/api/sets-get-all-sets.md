@@ -86,6 +86,7 @@ GET http://localhost:3000/sets/
 The response contains multiple sets. For this document, only 1 set is listed below:
 
 ```json
+[
 {
     "id": 1,
     "setNumber": "10234",
@@ -103,6 +104,7 @@ The response contains multiple sets. For this document, only 1 set is listed bel
         "australia"
     ]
 }
+]
 ```
 
 ## Return status
