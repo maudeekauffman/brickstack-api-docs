@@ -1,0 +1,185 @@
+---
+# markdownlint-disable
+# vale  off
+layout: default
+parent: tutorials
+nav_order: 3
+# tags used by AI files
+description: Post a `user` to the users resource
+tags:
+    - api
+categories: 
+    - tutorial
+ai_relevance: high
+importance: 6
+prerequisites: 
+    - /setup
+    - /api/users
+related_pages: []
+examples: []
+api_endpoints: 
+    - POST /users
+version: "v1.0"
+last_updated: "2025-11-11"
+# vale  on
+# markdownlint-enable
+---
+
+# Tutorial: Post a user
+
+Use this tutorial to use the `POST /users` endpoint to post a new
+LEGO user to the BrickStack API.
+
+**Estimated time:** 15 minutes
+
+## Goal
+
+After you complete this tutorial, you can:
+
+- Use Postman to interact with the `/users` resource
+- Use GitBash to interact with the `/users` resource
+- POST a new user
+
+## Prerequisites
+
+Before you start, ensure that you have completed the initial setup.
+
+- **Required**: [Setup](../setup.md).
+- Your local server must be running. If it's not, run `json-server -w db.json`
+from the main directory
+- The base URL for your local service is `http://localhost:3000`
+- You must use the Postman application or a terminal application, such as GitBash
+
+## Steps
+
+Follow these steps to POST a new user to the service.
+
+### 1. Understand user format
+
+Before you POST a user to the BrickStack API, you must understand the
+format of an existing user. Refer to the examples below.
+
+#### For Postman
+
+```json
+[
+  {
+        "id": 4,
+        "name": "Bob Loblaw",
+        "email": "bob@example.com",
+        "joinDate": "2025-02-02",
+        "collectionSize": 12,
+        "favoriteTheme": "Icons"
+    }
+]
+```
+
+#### For GitBash
+
+```shell
+curl -X POST http://localhost:3000/users/ \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": 4,
+    "name": "Bob Loblaw",
+    "email": "bob@example.com",
+    "joinDate": "2025-02-025",
+    "collectionSize": "12",
+    "favoriteTHeme": "Icons"    
+  }'
+  ```
+
+### 2. Create the POST request in PostMan
+
+1. Open PostMan
+2. At the top of the screen in the center pane, change the HTTP method to `POST`
+3. To the right of the HTTP method,
+   enter the URL as `http://localhost:3000/users/`
+4. Below the URL that you entered, click on the `Body` tab
+5. Change the format to `raw`
+6. Copy the user from section 1 of this document
+7. Paste the user
+8. Change the attributes that you want to
+9. In the top right-hand corner, click `Send`
+10. Check the bottom part of the screen
+11. If you have an error: correct the mistake based on the response text that you get
+12. If you do not have an error: you receive a response
+with the data that you just sent.
+A green rectangle on the right-hand side of the screen
+with the text `201 Created` displays.
+
+### 3. Create the POST request in GitBash
+
+1. Open GitBash
+2. Copy the GitBash command from section 1 of this document
+3. Paste the command in Notepad or a similar program
+4. Change the attributes that you want to and copy the newly-changed user
+5. Paste the GitBash command
+6. Press the `enter` key
+7. View the response from GitBash
+8. If you have an error: correct the mistake based on the response text that you receive
+9. If you do not have an error: you receive a response
+
+### 4. View the response - Postman
+
+You receive a response.
+
+If you successfully posted the user, the user
+appears at the bottom of the screen.
+A green rectangle
+with the text `201 Created` also appears.
+
+Here is an example response:
+
+```json
+{
+    "id": 4,
+    "name": "Bob Loblaw",
+    "email": "bob@example.com",
+    "joinDate": "2025-02-02",
+    "collectionSize": 12,
+    "favoriteTheme": "Icons"
+}
+```
+
+If there was an error, the error text appears.
+
+### 5. View the response - GitBash
+
+You receive a response.
+
+Here is an example response:
+
+```json
+{
+  "id": 4,
+  "name": "Bob Loblaw",
+  "email": "bob@example.com",
+  "joinDate": "2025-02-025",
+  "collectionSize": "12",
+  "favoriteTHeme": "Icons"
+}
+```
+
+If there was an error, the error text appears.
+
+## Completion and validation
+
+If you received a response with no errors, you have used the `POST` command
+to post a new user.
+
+If you received an error, read the text of the error. Errors might be due to:
+
+- Invalid formatting, for example missing `[]` or `{}` symbols
+- Invalid syntax of the GitBash command
+- The local server is not running
+
+## Next steps
+
+Now that you have used the `POST` command to post a new user,
+you can explore more of the API:
+
+- Try posting multiple users
+- View other tutorials
+- View the [users API reference document](../api/users.md)
+  
