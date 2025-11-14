@@ -5,7 +5,7 @@ layout: default
 parent: tutorials
 nav_order: 3
 # tags used by AI files
-description: Post a `collection` to the collection resource
+description: Post a `theme` to the themes resource
 tags:
     - api
 categories: 
@@ -14,21 +14,21 @@ ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/collection
+    - /api/themes
 related_pages: []
 examples: []
 api_endpoints: 
-    - POST /collection
+    - POST /themes
 version: "v1.0"
 last_updated: "2025-11-11"
 # vale  on
 # markdownlint-enable
 ---
 
-# Tutorial: Post a collection
+# Tutorial: Post a theme
 
-Use this tutorial to use the `POST /collection` endpoint to post a new
-LEGO collection to the BrickStack API.
+Use this tutorial to use the `POST /themes` endpoint to post a new
+LEGO theme to the BrickStack API.
 
 **Estimated time:** 15 minutes
 
@@ -36,9 +36,9 @@ LEGO collection to the BrickStack API.
 
 After you complete this tutorial, you can:
 
-- Use Postman to interact with the `/collection` resource
-- Use GitBash to interact with the `/collection` resource
-- POST a new collection
+- Use Postman to interact with the `/themes` resource
+- Use GitBash to interact with the `/themes` resource
+- POST a new theme
 
 ## Prerequisites
 
@@ -52,42 +52,34 @@ from the main directory
 
 ## Steps
 
-Follow these steps to POST a new collection to the service.
+Follow these steps to POST a new theme to the service.
 
-### 1. Understand collection format
+### 1. Understand theme format
 
-Before you POST a collection to the BrickStack API, you must understand the
-format of an existing collection. Refer to the examples below.
+Before you POST a theme to the BrickStack API, you must understand the
+format of an existing theme. Refer to the examples below.
 
 #### For Postman
 
 ```json
 [
   {
-    "id": 2,
-    "userId": 1,
-    "setId": 17,
-    "purchaseDate": "2019-12-25",
-    "condition": "Built",
-    "location": "Office",
-    "notes": "Harry Potter collection centerpiece"
-  }
+    "id": 1,
+    "name": "Creator Expert",
+    "description": "Modular buildings and expert-level builds"
+}
 ]
 ```
 
 #### For GitBash
 
 ```shell
-curl -X POST http://localhost:3000/collection/ \
+curl -X POST http://localhost:3000/themes/ \
   -H "Content-Type: application/json" \
   -d '{
-    "id": 2,
-    "userId": 1,
-    "setId": 17,
-    "purchaseDate": "2019-12-25",
-    "condition": "Built",
-    "location": "Office",
-    "notes": "Harry Potter collection centerpiece"
+    "id": 7,
+    "name": "batman",
+    "description": "Comic book character Batman themed"    
   }'
   ```
 
@@ -96,11 +88,11 @@ curl -X POST http://localhost:3000/collection/ \
 1. Open PostMan
 2. At the top of the screen in the center pane, change the HTTP method to `POST`
 3. To the right of the HTTP method,
-   enter the URL as `http://localhost:3000/collection/`
+   enter the URL as `http://localhost:3000/themes/`
 4. Below the URL that you entered, click on the `Body` tab
 5. Change the format to `raw`
-6. Copy the collection from section 1 of this document
-7. Paste the collection
+6. Copy the theme from section 1 of this document
+7. Paste the theme
 8. Change the attributes that you want to
 9. In the top right-hand corner, click `Send`
 10. Check the bottom part of the screen
@@ -115,7 +107,7 @@ with the text `201 Created` displays.
 1. Open GitBash
 2. Copy the GitBash command from section 1 of this document
 3. Paste the command in Notepad or a similar program
-4. Change the attributes that you want to and copy the newly-changed collection
+4. Change the attributes that you want to and copy the newly-changed theme
 5. Paste the GitBash command
 6. Press the `enter` key
 7. View the response from GitBash
@@ -126,7 +118,7 @@ with the text `201 Created` displays.
 
 You receive a response.
 
-If you successfully posted the collection, the collection
+If you successfully posted the theme, the theme
 appears at the bottom of the screen.
 A green rectangle
 with the text `201 Created` also appears.
@@ -135,13 +127,9 @@ Here is an example response:
 
 ```json
 {
-    "id": 2,
-    "userId": 1,
-    "setId": 2,
-    "purchaseDate": "2023-01-15",
-    "condition": "Built",
-    "location": "Display Room",
-    "notes": "Tallest LEGO set ever made"
+    "id": 7,
+    "name": "Batman",
+    "description": "Comic book character Batman themed"
 }
 ```
 
@@ -155,13 +143,9 @@ Here is an example response:
 
 ```json
  {
-  "id": 2,
-  "userId": 1,
-  "setId": 17,
-  "purchaseDate": "2019-12-25",
-  "condition": "Built",
-  "location": "Office",
-  "notes": "Harry Potter collection centerpiece"
+    "id": 7,
+    "name": "Batman",
+    "description": "Comic book character Batman themed"
 }
 ```
 
@@ -170,7 +154,7 @@ If there was an error, the error text appears.
 ## Completion and validation
 
 If you received a response with no errors, you have used the `POST` command
-to post a new collection.
+to post a new theme.
 
 If you received an error, read the text of the error. Errors might be due to:
 
@@ -180,10 +164,10 @@ If you received an error, read the text of the error. Errors might be due to:
 
 ## Next steps
 
-Now that you have used the `POST` command to post a new collection,
+Now that you have used the `POST` command to post a new theme,
 you can explore more of the API:
 
-- Try posting multiple collections
+- Try posting multiple themes
 - View other tutorials
-- View the [collection API reference document](../api/collection.md)
+- View the [themes API reference document](../api/themes.md)
   

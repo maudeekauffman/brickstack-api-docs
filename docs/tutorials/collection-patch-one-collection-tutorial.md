@@ -58,11 +58,11 @@ from the main directory
 
 ## Steps
 
-Follow these steps to PATCH a new collection to the service.
+Follow these steps to PATCH an existing collection on the service.
 
 ### 1. Understand collection format
 
-Before you PATCH a collection to the BrickStack API, you must understand the
+Before you PATCH a collection on the BrickStack API, you must understand the
 format of an existing collection. Refer to the examples below.
 
 #### For Postman
@@ -177,7 +177,7 @@ If there was an error, the error text appears.
 ## Completion and validation
 
 If you received a response with no errors, you have used the `PATCH` command
-to update an existing collection.
+to partially update an existing collection.
 
 If you received an error, read the text of the error. Errors might be due to:
 
@@ -190,7 +190,7 @@ If you received an error, read the text of the error. Errors might be due to:
 Now that you have used the `PATCH` command to update a collection,
 you can explore more of the API:
 
-- Try patching an existing collection
+- Try posting a new collection
 - View other tutorials
 - View the [collection API reference document](../api/collection.md)
   

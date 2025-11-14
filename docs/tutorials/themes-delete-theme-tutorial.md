@@ -5,7 +5,7 @@ layout: default
 parent: tutorials
 nav_order: 3
 # tags used by AI files
-description: Delete an existing `collection` resource
+description: Delete an existing `themes` resource
 tags:
     - api
 categories: 
@@ -14,23 +14,23 @@ ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/collection
+    - /api/themes
 related_pages: []
 examples: []
 api_endpoints: 
-    -  DELETE /collection
+    -  DELETE /themes
 version: "v1.0"
 last_updated: "2025-11-11"
 # vale  on
 # markdownlint-enable
 ---
 
-# Tutorial: DELETE an existing collection
+# Tutorial: DELETE an existing theme
 
-Use this tutorial to use the `DELETE /collection` endpoint to delete an existing
-LEGO collection from the BrickStack API.
+Use this tutorial to use the `DELETE /themes` endpoint to delete an existing
+LEGO theme from the BrickStack API.
 
-The `DELETE` command will delete a collection with the entered collection ID.
+The `DELETE` command will delete a theme with the entered theme ID.
 
 **Estimated time:** 15 minutes
 
@@ -38,9 +38,9 @@ The `DELETE` command will delete a collection with the entered collection ID.
 
 After you complete this tutorial, you can:
 
-- Use Postman to interact with the `/collection` resource
-- Use GitBash to interact with the `/collection` resource
-- DELETE an existing collection
+- Use Postman to interact with the `/themes` resource
+- Use GitBash to interact with the `/themes` resource
+- DELETE an existing theme
 
 ## Prerequisites
 
@@ -54,21 +54,21 @@ from the main directory
 
 ## Steps
 
-Follow these steps to DELETE a collection from the service.
+Follow these steps to DELETE a theme from the service.
 
-### 1. Understand the URL to the collection resource
+### 1. Understand the URL to the themes resource
 
-Before you DELETE a collection from the BrickStack API, you must understand how
-to call the collection resource. The link to a specific collection is:
-`http://localhost:3000/collection/1/` This link makes a request
-to delete the collection with the ID `1`.
+Before you DELETE a theme from the BrickStack API, you must understand how
+to call the themes resource. The link to a specific theme is:
+`http://localhost:3000/themes/7/` This link makes a request
+to delete the theme with the ID `7`.
 
 ### 2. Create the DELETE request in PostMan
 
 1. Open PostMan
 2. At the top of the screen in the center pane, change the HTTP method to `DELETE`
 3. To the right of the HTTP method,
-   enter the URL as `http://localhost:3000/collection/7/`
+   enter the URL as `http://localhost:3000/themes/7/`
 4. In the top right-hand corner, click `Send`
 5. Check the bottom part of the screen
 6. If you have an error: correct the mistake based on the response text that you get
@@ -79,17 +79,17 @@ with the text `200 OK` displays.
 ### 3. Create the DELETE request in GitBash
 
 1. Open GitBash
-2. Enter the command `curl -X DELETE http://localhost:3000/collection/7/`
+2. Enter the command `curl -X DELETE http://localhost:3000/themes/7/`
 3. Press the `enter` key
 4. View the response from GitBash
 5. If you have an error: correct the mistake based on the response text that you get
-6. If you do not have an error: you receive a response with details about the collection.
+6. If you do not have an error: you receive a response with details about the theme.
 
 ### 4. View the response - Postman
 
 You receive a response.
 
-If you successfully deleted the collection, the collection
+If you successfully deleted the theme, the theme
 appears at the bottom of the screen.
 A green rectangle
 with the text `200 OK` also appears.
@@ -101,7 +101,7 @@ If there was an error, the error text appears.
 The response displays on the instance of the terminal that is running the server:
 
 ```shell
-DELETE /collection/7/ 200 18.370 ms - 2
+DELETE /themes/7/ 200 31.020 ms - 2
 ```
 
 If there was an error, the error text appears.
@@ -109,7 +109,7 @@ If there was an error, the error text appears.
 ## Completion and validation
 
 If you received a response with no errors, you have used the `DELETE` command
-to delete an existing collection.
+to delete an existing theme.
 
 If you received an error, read the text of the error. Errors might be due to:
 
@@ -119,10 +119,10 @@ If you received an error, read the text of the error. Errors might be due to:
 
 ## Next steps
 
-Now that you have used the `DELETE` command on an existing collection,
+Now that you have used the `DELETE` command on an existing theme,
 you can explore more of the API:
 
-- Try posting a new collection
+- Try posting a new theme
 - View other tutorials
-- View the [collection API reference document](../api/collection.md)
+- View the [themes API reference document](../api/themes.md)
   

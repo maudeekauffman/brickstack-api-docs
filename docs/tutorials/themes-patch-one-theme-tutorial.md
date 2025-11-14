@@ -5,7 +5,7 @@ layout: default
 parent: tutorials
 nav_order: 3
 # tags used by AI files
-description: Post a `collection` to the collection resource
+description: Patch an existing `themes` resource
 tags:
     - api
 categories: 
@@ -14,21 +14,27 @@ ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/collection
+    - /api/themes
 related_pages: []
 examples: []
 api_endpoints: 
-    - POST /collection
+    -  PATCH /themes
 version: "v1.0"
 last_updated: "2025-11-11"
 # vale  on
 # markdownlint-enable
 ---
 
-# Tutorial: Post a collection
+# Tutorial: PATCH an existing theme
 
-Use this tutorial to use the `POST /collection` endpoint to post a new
-LEGO collection to the BrickStack API.
+Use this tutorial to use the `PATCH /themes` endpoint to update an existing
+LEGO theme on the BrickStack API.
+
+The `PATCH` command will update a theme with the entered theme ID.
+
+As opposed to the `PUT` request or `POST` request,
+a `PATCH` request only updates the entered attributes.
+You do not need to enter all attributes to send a `PATCH` request.
 
 **Estimated time:** 15 minutes
 
@@ -36,9 +42,9 @@ LEGO collection to the BrickStack API.
 
 After you complete this tutorial, you can:
 
-- Use Postman to interact with the `/collection` resource
-- Use GitBash to interact with the `/collection` resource
-- POST a new collection
+- Use Postman to interact with the `/themes` resource
+- Use GitBash to interact with the `/themes` resource
+- PATCH an existing theme
 
 ## Prerequisites
 
@@ -48,74 +54,67 @@ Before you start, ensure that you have completed the initial setup.
 - Your local server must be running. If it's not, run `json-server -w db.json`
 from the main directory
 - The base URL for your local service is `http://localhost:3000`
-- You must use the Postman application or a terminal application, such as GitBash
+- You must use the Postman application or a terminal application such as GitBash
 
 ## Steps
 
-Follow these steps to POST a new collection to the service.
+Follow these steps to PATCH an existing theme on the service.
 
-### 1. Understand collection format
+### 1. Understand theme format
 
-Before you POST a collection to the BrickStack API, you must understand the
-format of an existing collection. Refer to the examples below.
+Before you PATCH a theme on the BrickStack API, you must understand the
+format of an existing theme. Refer to the examples below.
 
 #### For Postman
 
 ```json
-[
-  {
-    "id": 2,
-    "userId": 1,
-    "setId": 17,
-    "purchaseDate": "2019-12-25",
-    "condition": "Built",
-    "location": "Office",
-    "notes": "Harry Potter collection centerpiece"
-  }
-]
+{
+    "id": 7,
+    "name": "Batman",
+    "description": "Batman themed"
+}
 ```
 
 #### For GitBash
 
 ```shell
-curl -X POST http://localhost:3000/collection/ \
+curl -X PATCH http://localhost:3000/themes/7/ \
   -H "Content-Type: application/json" \
   -d '{
-    "id": 2,
-    "userId": 1,
-    "setId": 17,
-    "purchaseDate": "2019-12-25",
-    "condition": "Built",
-    "location": "Office",
-    "notes": "Harry Potter collection centerpiece"
-  }'
+    "id": 7,
+    "name": "Batman",
+    "description": "Batman themed"   
+}'
   ```
 
-### 2. Create the POST request in PostMan
+Because you are only updating partial attributes,
+you do not have to enter every attribute as listed above.
+
+### 2. Create the PATCH request in PostMan
 
 1. Open PostMan
-2. At the top of the screen in the center pane, change the HTTP method to `POST`
+2. At the top of the screen in the center pane, change the HTTP method to `PATCH`
 3. To the right of the HTTP method,
-   enter the URL as `http://localhost:3000/collection/`
+   enter the URL as `http://localhost:3000/themes/7/`
 4. Below the URL that you entered, click on the `Body` tab
 5. Change the format to `raw`
-6. Copy the collection from section 1 of this document
-7. Paste the collection
-8. Change the attributes that you want to
+6. Copy the theme from section 1 of this document
+7. Change the attributes that you want to, delete any lines that you do not want to update
+8. Paste the theme
 9. In the top right-hand corner, click `Send`
 10. Check the bottom part of the screen
 11. If you have an error: correct the mistake based on the response text that you get
 12. If you do not have an error: you receive a response
 with the data that you just sent.
 A green rectangle on the right-hand side of the screen
-with the text `201 Created` displays.
+with the text `200 OK` displays.
 
-### 3. Create the POST request in GitBash
+### 3. Create the PATCH request in GitBash
 
 1. Open GitBash
 2. Copy the GitBash command from section 1 of this document
 3. Paste the command in Notepad or a similar program
-4. Change the attributes that you want to and copy the newly-changed collection
+4. Change / delete the attributes that you want to and copy the newly-changed theme
 5. Paste the GitBash command
 6. Press the `enter` key
 7. View the response from GitBash
@@ -126,22 +125,18 @@ with the text `201 Created` displays.
 
 You receive a response.
 
-If you successfully posted the collection, the collection
+If you successfully patched the theme, the theme
 appears at the bottom of the screen.
 A green rectangle
-with the text `201 Created` also appears.
+with the text `200 OK` also appears.
 
 Here is an example response:
 
 ```json
 {
-    "id": 2,
-    "userId": 1,
-    "setId": 2,
-    "purchaseDate": "2023-01-15",
-    "condition": "Built",
-    "location": "Display Room",
-    "notes": "Tallest LEGO set ever made"
+    "id": 7,
+    "name": "Batman",
+    "description": "Batman themed"
 }
 ```
 
@@ -154,14 +149,10 @@ You receive a response.
 Here is an example response:
 
 ```json
- {
-  "id": 2,
-  "userId": 1,
-  "setId": 17,
-  "purchaseDate": "2019-12-25",
-  "condition": "Built",
-  "location": "Office",
-  "notes": "Harry Potter collection centerpiece"
+{
+  "id": 7,
+  "name": "Batman",
+  "description": "Batman themed"
 }
 ```
 
@@ -169,8 +160,8 @@ If there was an error, the error text appears.
 
 ## Completion and validation
 
-If you received a response with no errors, you have used the `POST` command
-to post a new collection.
+If you received a response with no errors, you have used the `PATCH` command
+to partially update an existing theme.
 
 If you received an error, read the text of the error. Errors might be due to:
 
@@ -180,10 +171,10 @@ If you received an error, read the text of the error. Errors might be due to:
 
 ## Next steps
 
-Now that you have used the `POST` command to post a new collection,
+Now that you have used the `PATCH` command to update a theme,
 you can explore more of the API:
 
-- Try posting multiple collections
+- Try posting a new theme
 - View other tutorials
-- View the [collection API reference document](../api/collection.md)
+- View the [themes API reference document](../api/themes.md)
   

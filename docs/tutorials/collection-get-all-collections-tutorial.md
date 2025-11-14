@@ -25,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: Get oall collections
+# Tutorial: Get all collections
 
 Use this tutorial to use the `GET /collection` endpoint to get all
 existing LEGO collections from the BrickStack API.
@@ -81,7 +81,7 @@ with the text `200 OK` displays.
 3. Press the `enter` key
 4. View the response from GitBash
 5. If you have an error: correct the mistake based on the response text that you get
-6. If you do not have an error: you receive a response with details about the collection.
+6. If you do not have an error: you receive a response with details about all collections.
 
 ### 4. View the response - Postman
 
