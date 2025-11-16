@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Get one theme
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Returns one result for the [`theme`](themes.md) resource.
 The results will contain one theme that is stored in the API.
 

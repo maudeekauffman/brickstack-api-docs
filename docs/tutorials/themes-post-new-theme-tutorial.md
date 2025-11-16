@@ -27,6 +27,8 @@ last_updated: "2025-11-11"
 
 # Tutorial: Post a theme
 
+![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+
 Use this tutorial to use the `POST /themes` endpoint to post a new
 LEGO theme to the BrickStack API.
 

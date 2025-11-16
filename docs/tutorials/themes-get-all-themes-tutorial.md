@@ -27,6 +27,8 @@ last_updated: "2025-11-11"
 
 # Tutorial: Get all themes
 
+![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+
 Use this tutorial to use the `GET /themes` endpoint to get all
 existing LEGO themes from the BrickStack API.
 

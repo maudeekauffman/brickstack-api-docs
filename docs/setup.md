@@ -24,6 +24,8 @@ last_updated: "2025-08-11"
 
 # Before you start a tutorial
 
+![BrickStack Setup](./images/setup.png "BrickStack Setup")
+
 These are the steps you must do before you can run
 the tutorials for the **BrickStack API**.
 
@@ -68,7 +70,7 @@ the `brickstack-api-docs` repository.
     cd `your GitHub repository workspace`
     ls
     # (see the BrickStack directory in the list)
-    cd brickstac-api-docs
+    cd brickstack-api-docs
     cd api
     json-server -w db.json
     ```
@@ -79,7 +81,7 @@ the service start and display the URL of the service: `http://localhost:3000`.
 Make a test call to the service.
 
     ``shell
-    curl http://localhost:3000/sets
+    curl http://localhost:3000/sets/
     ```
 
 If the service is running correctly, you should see a list of sets from the service,
@@ -126,4 +128,4 @@ Some common situations that cause errors include:
 4. A required software component isn't up to date.
 
 If you see the list of sets from the service, you're ready to do
-the [Tutorials](tutorials.md).
+the [Tutorials](./tutorials/).

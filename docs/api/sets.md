@@ -27,6 +27,8 @@ last_updated: "2025-11-08"
 
 # `sets` resource
 
+![BrickStack Resource](../images/resource.png "BrickStack Resource")
+
 Base endpoint:
 
 ```shell

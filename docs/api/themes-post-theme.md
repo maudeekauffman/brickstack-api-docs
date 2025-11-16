@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Post new theme
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Posts a new theme to the [`themes`](themes.md) resource.
 
 ## URL

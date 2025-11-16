@@ -13,7 +13,7 @@ ai_relevance: high
 importance: 9
 prerequisites: []
 related_pages: 
-    - /before-you-start-a-tutorial 
+    - /setup
     - /tutorials/get-all-sets
     - /tutorials/get-one-set
 examples: []
@@ -26,9 +26,9 @@ last_updated: "2025-11-08"
 
 # BrickStack API
 
-An image will be inserted here.
+![BrickStack API logo](./images/brickstack_api.png "BrickStack API logo")
 
-Welcome to BrickStack! BrickStack is an API that stores information about LEGO sets.
+Welcome to `BrickStack!` BrickStack is an API that stores information about LEGO sets.
 
 Use BrickStack to browse LEGO sets in a database to view more details about a specific LEGO set.
 
@@ -48,11 +48,17 @@ You can also start a collection to help keep track of your own LEGO sets.
 
 ## Workflow
 
-A diagram will be inserted here.
+Here is how the BrickStack API works.
 
-## Quickstart
+![BrickStack API architecture diagram](./images/api_architecture_diagram.png "BrickStack API architecture diagram")
 
-[Browse all sets _(coming soon)_](#quickstart) - Use this guide to see how
+You use a terminal app like Git Bash or Postman. With your local json server installed,
+you send a request to the BrickStack API. You are interacting with 1 of the 4 resources
+that are available on the API. The request that you make modifies the json database.
+
+## Quick Start
+
+[Browse all sets](./quick_start.md) - Use this guide to see how
 easy and fun BrickStack is to use!
 
 ## Tutorials
@@ -62,14 +68,14 @@ Learn how to do common tasks with BrickStack
 First, read this tutorial to set up your development system for these tutorials.
 You only have to do this process one time per development system.
 
-* [setup](setup.md)
+* [Setup](./setup.md)
 
 After your system is ready, read these tutorials to learn how to perform common tasks in BrickStack.
 
-* [Browse all sets](tutorials/enroll-a-new-user.md)
-* [Update an existing set](tutorials/add-a-new-task.md)
-* [Add a set _(coming soon)_](#tutorials)
-* [View your collection _(coming soon)_](#tutorials)
+* [Get all sets](./tutorials/sets-get-all-sets-tutorial.md)
+* [Update an existing set](./tutorials/sets-put-one-set-tutorial.md)
+* [Add a new set](./tutorials/sets-post-new-set-tutorial.md)
+* [Get a specific collection (your collection, for example)](./tutorials/collection-get-one-collection-tutorial.md)
 
 ## API reference docs
 
@@ -82,6 +88,7 @@ on the installation of the service.
 When run locally for testing, the `{base_url}` is
 usually `http://localhost:3000`.
 
-* [sets resource](api/sets.md)
-* [themes resource](api/themes.md)
-* [collection resource](api/collection.md)
+* [sets resource](./api/sets.md)
+* [collection resource](./api/collection.md)
+* [themes resource](./api/themes.md)
+* [users resource](./api/users.md)

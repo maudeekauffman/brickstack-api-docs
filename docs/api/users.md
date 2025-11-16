@@ -25,7 +25,9 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# `sets` resource
+# `users` resource
+
+![BrickStack Resource](../images/resource.png "BrickStack Resource")
 
 Base endpoint:
 

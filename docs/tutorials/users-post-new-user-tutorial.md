@@ -27,6 +27,8 @@ last_updated: "2025-11-11"
 
 # Tutorial: Post a user
 
+![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+
 Use this tutorial to use the `POST /users` endpoint to post a new
 LEGO user to the BrickStack API.
 

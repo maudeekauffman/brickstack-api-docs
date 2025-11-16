@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Get one set
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Returns one result for the [`sets`](./sets.md) resource.
 The results will contain one LEGO set that is stored in the API.
 

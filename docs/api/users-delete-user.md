@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Delete one user
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Deletes one user from the [`users`](users.md) resource.
 
 ## URL

@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Delete one set
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Deletes one LEGO set from the [`sets`](./sets.md) resource.
 
 ## URL
