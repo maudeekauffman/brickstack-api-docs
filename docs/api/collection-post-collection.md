@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Post new collection
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Posts a new collection to the [`collection`](./collection.md) resource.
 
 ## URL

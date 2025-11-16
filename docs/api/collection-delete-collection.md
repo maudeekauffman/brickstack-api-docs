@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Delete one collection
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Deletes one collection from the [`collection`](./collection.md) resource.
 
 ## URL

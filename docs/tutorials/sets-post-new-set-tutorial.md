@@ -25,7 +25,9 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: Post a set
+# Tutorial: Post a new set
+
+![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `POST /sets` endpoint to post a new
 LEGO set to the BrickStack API.

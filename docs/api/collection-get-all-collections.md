@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Get all collections
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Returns results for the [`collection`](./collection.md) resource.
 The results will contain all collections that are stored in the API.
 

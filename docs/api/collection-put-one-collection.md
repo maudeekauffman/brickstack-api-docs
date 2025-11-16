@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Put existing collection
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Updates an existing collection in the [`collection`](./collection.md) resource.
 
 ## URL

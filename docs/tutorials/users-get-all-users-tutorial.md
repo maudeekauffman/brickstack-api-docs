@@ -27,6 +27,8 @@ last_updated: "2025-11-11"
 
 # Tutorial: Get all users
 
+![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+
 Use this tutorial to use the `GET /users` endpoint to get all
 existing users from the BrickStack API.
 

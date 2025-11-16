@@ -27,6 +27,8 @@ last_updated: "2025-11-11"
 
 # Tutorial: DELETE an existing collection
 
+![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+
 Use this tutorial to use the `DELETE /collection` endpoint to delete an existing
 LEGO collection from the BrickStack API.
 

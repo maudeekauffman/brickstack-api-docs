@@ -26,6 +26,8 @@ last_updated: "2025-12-11"
 
 # Put existing set
 
+![BrickStack Reference](../images/reference.png "BrickStack Reference")
+
 Updates an existing set in the [`sets`](./sets.md) resource.
 
 ## URL
