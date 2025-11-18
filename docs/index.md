@@ -24,7 +24,7 @@ last_updated: "2025-11-08"
 # markdownlint-enable
 ---
 
-# BrickStack API
+# Overview BrickStack API
 
 ![BrickStack API logo](./images/brickstack_api.png "BrickStack API logo")
 
