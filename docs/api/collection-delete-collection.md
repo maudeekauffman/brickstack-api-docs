@@ -3,7 +3,6 @@
 # vale  off
 layout: default
 parent: collection resource
-nav_order: 1
 # tags used by AI files
 description: DELETE one `collection` from the collection resource
 tags:

@@ -3,7 +3,6 @@
 # vale  off
 layout: default
 parent: collection resource
-nav_order: 1
 # tags used by AI files
 description: POST new `collection` to the collection resource
 tags:
