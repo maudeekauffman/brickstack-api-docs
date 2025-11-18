@@ -3,7 +3,6 @@
 # vale  off
 layout: default
 parent: tutorials
-nav_order: 3
 # tags used by AI files
 description: Put a `user` to an existing users resource
 tags:
