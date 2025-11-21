@@ -36,7 +36,7 @@ baseurl: "/brickstack-api-docs"
 #   +++ REMOVE IF YOU DON'T WANT THE AUX LINKS AT THE TOP OF THE PAGE
 #       OR ADD MORE LINKS AS SUPPORTED BY THE THEME
 aux_links: 
-  PowerMeet repo: https://github.com/scottmillerraleigh/brickstack-api-docs
+  BrickStack repo: https://github.com/scottmillerraleigh/brickstack-api-docs
 #
 #   Configures how each topic URL is formatted
 #   +++ YOU CAN CHANGE THIS, BUT YOU PROBABLY DO NOT WANT TO

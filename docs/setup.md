@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-nav_order: 3
+nav_order: 1
 # tags used by AI files
 description: Describes how to configure your local computer to run a local instance of the BrickStack API.
 tags: 
