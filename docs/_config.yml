@@ -12,7 +12,7 @@
 #     publicly available GitHub repo.
 #     The format for this property's value is <GitHub account>/<repo> 
 #   *** DO NOT CHANGE THIS VALUE
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs/just-the-docs
 #   For information about this theme and its options, see: https://just-the-docs.com/
 #
 # This defines the version of the theme to use.
