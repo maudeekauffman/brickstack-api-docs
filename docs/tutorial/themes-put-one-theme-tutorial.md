@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorials
+parent: tutorial
 # tags used by AI files
 description: Put a `theme` to an existing themes resource
 tags:

@@ -3,8 +3,7 @@
 # vale  off
 layout: default
 nav_order: 2
-has_children: true
-has_toc: false
+parent: resource
 # tags used by AI files
 description: "Information about the `sets` resource"
 tags: 

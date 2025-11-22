@@ -3,8 +3,7 @@
 # vale  off
 layout: default
 nav_order: 1
-has_children: true
-has_toc: false
+parent: resource
 # tags used by AI files
 description: "Information about the `collection` resource"
 tags: 
