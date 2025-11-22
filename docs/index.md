@@ -72,10 +72,10 @@ You only have to do this process one time per development system.
 
 After your system is ready, read these tutorials to learn how to perform common tasks in BrickStack.
 
-* [Get all sets](./tutorials/sets-get-all-sets-tutorial.md)
-* [Update an existing set](./tutorials/sets-put-one-set-tutorial.md)
-* [Add a new set](./tutorials/sets-post-new-set-tutorial.md)
-* [Get a specific collection (your collection, for example)](./tutorials/collection-get-one-collection-tutorial.md)
+* [Get all sets](./tutorial/sets-get-all-sets-tutorial.md)
+* [Update an existing set](./tutorial/sets-put-one-set-tutorial.md)
+* [Add a new set](./tutorial/sets-post-new-set-tutorial.md)
+* [Get a specific collection (your collection, for example)](./tutorial/collection-get-one-collection-tutorial.md)
 
 ## API reference docs
 
@@ -88,7 +88,7 @@ on the installation of the service.
 When run locally for testing, the `{base_url}` is
 usually `http://localhost:3000`.
 
-* [sets resource](./api/sets.md)
-* [collection resource](./api/collection.md)
-* [themes resource](./api/themes.md)
-* [users resource](./api/users.md)
+* [sets resource](./resource/sets.md)
+* [collection resource](./resource/collection.md)
+* [themes resource](./resource/themes.md)
+* [users resource](./resource/users.md)
