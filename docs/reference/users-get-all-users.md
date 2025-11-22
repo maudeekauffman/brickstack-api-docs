@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: users resource
+parent: reference
 # tags used by AI files
 description: GET all `users` from the users resource
 tags:

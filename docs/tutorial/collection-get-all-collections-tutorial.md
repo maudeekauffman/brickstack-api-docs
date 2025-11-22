@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorials
+parent: tutorial
 # tags used by AI files
 description: Get all `collections` from the collection resource
 tags:

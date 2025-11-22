@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: collection resource
+parent: reference
 # tags used by AI files
 description: DELETE one `collection` from the collection resource
 tags:

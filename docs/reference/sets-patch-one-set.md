@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: sets resource
+parent: reference
 # tags used by AI files
 description: PATCH existing `set` to the sets resource
 tags:

@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: users resource
+parent: reference
 # tags used by AI files
 description: POST new `user` to the users resource
 tags:
