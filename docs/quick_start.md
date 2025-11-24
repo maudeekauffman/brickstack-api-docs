@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-nav_order: 3
+nav_order: 2
 # tags used by AI files
 description: Describes how to get started using the BrickStack API for a new user
 tags: 
