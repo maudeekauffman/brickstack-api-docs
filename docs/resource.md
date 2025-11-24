@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-nav_order: 1
+nav_order: 6
 has_children: true
 # tags used by AI files
 description: Resource landing page
@@ -33,7 +33,7 @@ Resources are parts of the API that you can interact with.
 
 ## Links to Resource docs
 
-* [collection](./collection.md)
-* [sets](./sets.md)
-* [themes](./themes.md)
-* [users](./users.md)
+* [collection](./resource/collection.md)
+* [sets](./resource/sets.md)
+* [themes](./resource/themes.md)
+* [users](./resource/themes.md)

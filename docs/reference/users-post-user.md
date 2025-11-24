@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: reference
+parent: Reference docs
 # tags used by AI files
 description: POST new `user` to the users resource
 tags:
@@ -12,7 +12,7 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/users
+    - /resource/users
 related_pages: []
 examples: []
 api_endpoints: 
@@ -25,9 +25,9 @@ last_updated: "2025-12-11"
 
 # Post new user
 
-![BrickStack Reference](../images/reference.png "BrickStack Reference")
+![BrickStack Reference](./reference.png "BrickStack Reference")
 
-Posts a new user to the [`users`](users.md) resource.
+Posts a new user to the [`users`](../resource/users.md) resource.
 
 ## URL
 

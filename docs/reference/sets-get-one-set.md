@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: reference
+parent: Reference docs
 # tags used by AI files
 description: GET one `set` from the sets resource
 tags:
@@ -12,7 +12,7 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/sets
+    - /resource/sets
 related_pages: []
 examples: []
 api_endpoints: 
@@ -25,9 +25,9 @@ last_updated: "2025-12-11"
 
 # Get one set
 
-![BrickStack Reference](../images/reference.png "BrickStack Reference")
+![BrickStack Reference](./reference.png "BrickStack Reference")
 
-Returns one result for the [`sets`](./sets.md) resource.
+Returns one result for the [`sets`](../resource/sets.md) resource.
 The results will contain one LEGO set that is stored in the API.
 
 ## URL

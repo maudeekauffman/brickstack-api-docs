@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: reference
+parent: Reference docs
 # tags used by AI files
 description: GET all `users` from the users resource
 tags:
@@ -12,7 +12,7 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/users
+    - /resource/users
 related_pages: []
 examples: []
 api_endpoints: 
@@ -25,9 +25,9 @@ last_updated: "2025-12-11"
 
 # Get all users
 
-![BrickStack Reference](../images/reference.png "BrickStack Reference")
+![BrickStack Reference](./reference.png "BrickStack Reference")
 
-Returns results for the [`users`](users.md) resource.
+Returns results for the [`users`](../resource/users.md) resource.
 The results will contain all users that are stored in the API.
 
 ## URL

@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: reference
+parent: Reference docs
 # tags used by AI files
 description: GET one `theme` from the themes resource
 tags:
@@ -12,7 +12,7 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/themes
+    - /resource/themes
 related_pages: []
 examples: []
 api_endpoints: 
@@ -25,9 +25,9 @@ last_updated: "2025-12-11"
 
 # Get one theme
 
-![BrickStack Reference](../images/reference.png "BrickStack Reference")
+![BrickStack Reference](./reference.png "BrickStack Reference")
 
-Returns one result for the [`theme`](themes.md) resource.
+Returns one result for the [`theme`](../resource/themes.md) resource.
 The results will contain one theme that is stored in the API.
 
 ## URL

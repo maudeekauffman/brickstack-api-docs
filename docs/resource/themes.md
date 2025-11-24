@@ -3,7 +3,7 @@
 # vale  off
 layout: default
 nav_order: 3
-parent: resource
+parent: Resource docs
 # tags used by AI files
 description: "Information about the `themes` resource"
 tags: 
@@ -26,7 +26,7 @@ last_updated: "2025-11-08"
 
 # `themes` resource
 
-![BrickStack Resource](../images/resource.png "BrickStack Resource")
+![BrickStack Resource](./resource.png "BrickStack Resource")
 
 Base endpoint:
 

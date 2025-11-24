@@ -2,18 +2,18 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorial
+parent: Tutorials
 # tags used by AI files
 description: Put a `collection` to an existing collection resource
 tags:
     - api
 categories: 
-    - tutorial
+    - tutorials
 ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/collection
+    - /resource/collection
 related_pages: []
 examples: []
 api_endpoints: 
@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: PUT an existing collection
 
-![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `PUT /collection` endpoint to update an existing
 LEGO collection on the BrickStack API.
@@ -186,5 +186,5 @@ you can explore more of the API:
 
 - Try patching an existing collection
 - View other tutorials
-- View the [collection API reference document](../api/collection.md)
+- View the [collection API resource document](../resource/collection.md)
   

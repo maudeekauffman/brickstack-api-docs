@@ -2,18 +2,18 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorial
+parent: Tutorials
 # tags used by AI files
 description: Post a `collection` to the collection resource
 tags:
     - api
 categories: 
-    - tutorial
+    - tutorials
 ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/collection
+    - /resource/collection
 related_pages: []
 examples: []
 api_endpoints: 
@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: Post a collection
 
-![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `POST /collection` endpoint to post a new
 LEGO collection to the BrickStack API.
@@ -186,5 +186,5 @@ you can explore more of the API:
 
 - Try posting multiple collections
 - View other tutorials
-- View the [collection API reference document](../api/collection.md)
+- View the [collection API resource document](../resource/collection.md)
   

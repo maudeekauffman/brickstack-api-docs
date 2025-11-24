@@ -2,18 +2,18 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorial
+parent: Tutorials
 # tags used by AI files
 description: Put a `theme` to an existing themes resource
 tags:
     - api
 categories: 
-    - tutorial
+    - tutorials
 ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/themes
+    - /resource/themes
 related_pages: []
 examples: []
 api_endpoints: 
@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: PUT an existing theme
 
-![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `PUT /themes` endpoint to update an existing
 LEGO theme on the BrickStack API.
@@ -170,5 +170,5 @@ you can explore more of the API:
 
 - Try patching an existing theme
 - View other tutorials
-- View the [themes API reference document](../api/themes.md)
+- View the [themes API resource document](../resource/themes.md)
   

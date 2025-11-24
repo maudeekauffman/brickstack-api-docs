@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: reference
+parent: Reference docs
 # tags used by AI files
 description: PUT existing `theme` to the themes resource
 tags:
@@ -12,7 +12,7 @@ categories:
 ai_relevance: high
 importance: 7
 prerequisites:
-    - /api/themes
+    - /resource/themes
 related_pages: []
 examples: []
 api_endpoints: 
@@ -25,9 +25,9 @@ last_updated: "2025-12-11"
 
 # Put existing theme
 
-![BrickStack Reference](../images/reference.png "BrickStack Reference")
+![BrickStack Reference](./reference.png "BrickStack Reference")
 
-Updates an existing theme in the [`themes`](themes.md) resource.
+Updates an existing theme in the [`themes`](../resource/themes.md) resource.
 
 ## URL
 

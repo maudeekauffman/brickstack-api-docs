@@ -2,18 +2,18 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorial
+parent: Tutorials
 # tags used by AI files
 description: Get all `users` from the users resource
 tags:
     - api
 categories: 
-    - tutorial
+    - tutorials
 ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/users
+    - /resource/users
 related_pages: []
 examples: []
 api_endpoints: 
@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: Get all users
 
-![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `GET /users` endpoint to get all
 existing users from the BrickStack API.
@@ -214,5 +214,5 @@ you can explore more of the API:
 
 - Try getting one user
 - View other tutorials
-- View the [users API reference document](../api/users.md)
+- View the [users API resource document](../resource/users.md)
   

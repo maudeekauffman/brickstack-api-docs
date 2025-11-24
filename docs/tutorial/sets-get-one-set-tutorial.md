@@ -2,18 +2,18 @@
 # markdownlint-disable
 # vale  off
 layout: default
-parent: tutorial
+parent: Tutorials
 # tags used by AI files
 description: Get one `set` from the sets resource
 tags:
     - api
 categories: 
-    - tutorial
+    - tutorials
 ai_relevance: high
 importance: 6
 prerequisites: 
     - /setup
-    - /api/sets
+    - /resource/sets
 related_pages: []
 examples: []
 api_endpoints: 
@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: Get one set
 
-![BrickStack Tutorial](../images/tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `GET /sets` endpoint to get an
 existing LEGO set from the BrickStack API.
@@ -165,5 +165,5 @@ you can explore more of the API:
 
 - Try getting all sets
 - View other tutorials
-- View the [sets API reference document](../api/sets.md)
+- View the [sets API resource document](../resource/sets.md)
   
