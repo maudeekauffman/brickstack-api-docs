@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: PATCH an existing collection
 
-![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](../../tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `PATCH /collection` endpoint to update an existing
 LEGO collection on the BrickStack API.

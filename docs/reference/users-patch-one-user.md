@@ -25,7 +25,7 @@ last_updated: "2025-12-11"
 
 # Patch existing user
 
-![BrickStack Reference](./reference.png "BrickStack Reference")
+![BrickStack Reference](../../images/reference.png "BrickStack Reference")
 
 Partially updates an existing user in the [`users`](../resource/users.md) resource.
 

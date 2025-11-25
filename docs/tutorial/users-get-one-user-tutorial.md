@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: Get one user
 
-![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](../../tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `GET /users` endpoint to get an
 existing user from the BrickStack API.

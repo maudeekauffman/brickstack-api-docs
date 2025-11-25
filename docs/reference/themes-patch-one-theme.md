@@ -25,7 +25,7 @@ last_updated: "2025-12-11"
 
 # Patch existing theme
 
-![BrickStack Reference](./reference.png "BrickStack Reference")
+![BrickStack Reference](../../images/reference.png "BrickStack Reference")
 
 Partially updates an existing theme in the [`themes`](../resource/themes.md) resource.
 

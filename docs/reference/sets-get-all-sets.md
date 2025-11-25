@@ -25,7 +25,7 @@ last_updated: "2025-12-11"
 
 # Get all sets
 
-![BrickStack Reference](./reference.png "BrickStack Reference")
+![BrickStack Reference](../../images/reference.png "BrickStack Reference")
 
 Returns results for the [`sets`](../resource/sets.md) resource.
 The results will contain all LEGO sets that are stored in the API.

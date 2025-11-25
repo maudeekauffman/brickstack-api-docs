@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # `users` resource
 
-![BrickStack Resource](./resource.png "BrickStack Resource")
+![BrickStack Resource](../../resource.png "BrickStack Resource")
 
 Base endpoint:
 
