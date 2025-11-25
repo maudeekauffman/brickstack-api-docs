@@ -25,7 +25,7 @@ last_updated: "2025-12-11"
 
 # Post new set
 
-![BrickStack Reference](./reference.png "BrickStack Reference")
+![BrickStack Reference](../../images/reference.png "BrickStack Reference")
 
 Posts a new LEGO set to the [`sets`](../resource/sets.md) resource.
 

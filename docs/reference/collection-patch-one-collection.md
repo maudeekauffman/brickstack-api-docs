@@ -25,7 +25,7 @@ last_updated: "2025-12-11"
 
 # Patch existing collection
 
-![BrickStack Reference](./reference.png "BrickStack Reference")
+![BrickStack Reference](../../images/reference.png "BrickStack Reference")
 
 Partially updates an existing collection in the [`collection`](../resource/collection.md) resource.
 

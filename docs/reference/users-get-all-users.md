@@ -25,7 +25,7 @@ last_updated: "2025-12-11"
 
 # Get all users
 
-![BrickStack Reference](./reference.png "BrickStack Reference")
+![BrickStack Reference](../../images/reference.png "BrickStack Reference")
 
 Returns results for the [`users`](../resource/users.md) resource.
 The results will contain all users that are stored in the API.

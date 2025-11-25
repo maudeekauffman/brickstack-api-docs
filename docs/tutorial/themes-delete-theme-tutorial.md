@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: DELETE an existing theme
 
-![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `DELETE /themes` endpoint to delete an existing
 LEGO theme from the BrickStack API.

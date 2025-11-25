@@ -26,7 +26,7 @@ last_updated: "2025-11-11"
 
 # Tutorial: PATCH an existing theme
 
-![BrickStack Tutorial](./tutorial.png "BrickStack Tutorial")
+![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 
 Use this tutorial to use the `PATCH /themes` endpoint to update an existing
 LEGO theme on the BrickStack API.
