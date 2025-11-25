@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Reference docs
+nav_order: 21
 # tags used by AI files
 description: POST new `user` to the users resource
 tags:

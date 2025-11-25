@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 3
 # tags used by AI files
 description: Post a `collection` to the collection resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: Post a collection
+# Tutorial: Post a new collection
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

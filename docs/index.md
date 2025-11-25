@@ -24,11 +24,13 @@ last_updated: "2025-11-08"
 # markdownlint-enable
 ---
 
-# Overview BrickStack API
+# Overview of the BrickStack API
 
 ![BrickStack API logo](./images/brickstack_api.png "BrickStack API logo")
 
 Welcome to `BrickStack!` BrickStack is an API that stores information about LEGO sets.
+
+This API is fictional and is not a real service.
 
 Use BrickStack to browse LEGO sets in a database to view more details about a specific LEGO set.
 

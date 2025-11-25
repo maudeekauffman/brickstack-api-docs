@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 5
 # tags used by AI files
 description: Patch an existing `collection` resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: PATCH an existing collection
+# Tutorial: Patch an existing collection
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

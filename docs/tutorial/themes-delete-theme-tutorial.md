@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 18
 # tags used by AI files
 description: Delete an existing `themes` resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: DELETE an existing theme
+# Tutorial: Delete an existing theme
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

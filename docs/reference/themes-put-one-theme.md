@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Reference docs
+nav_order: 16
 # tags used by AI files
 description: PUT existing `theme` to the themes resource
 tags:

@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 8
 # tags used by AI files
 description: Get one `set` from the sets resource
 tags:
