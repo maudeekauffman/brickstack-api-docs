@@ -305,3 +305,7 @@ If you want more information about the BrickStack API, visit these related topic
 * [BrickStack Overview](./index.md)
 * [Post a new set](./tutorial/sets-post-new-set-tutorial.md)
 * [Delete a set](./tutorial/sets-delete-set-tutorial.md)
+
+## Troubleshooting
+
+If you have other questions or you need support, contact us at `<fakeemail@fakedomain.com>`.

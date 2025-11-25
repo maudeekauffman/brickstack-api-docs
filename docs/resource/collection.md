@@ -24,7 +24,7 @@ last_updated: "2025-11-08"
 # markdownlint-enable
 ---
 
-# `collection` resource
+# The `collection` resource
 
 ![BrickStack Resource](../../images/resource.png "BrickStack Resource")
 

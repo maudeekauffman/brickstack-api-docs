@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 6
 # tags used by AI files
 description: Delete an existing `collection` resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: DELETE an existing collection
+# Tutorial: Delete an existing collection
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

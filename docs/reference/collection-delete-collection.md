@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Reference docs
+nav_order: 6
 # tags used by AI files
 description: DELETE one `collection` from the collection resource
 tags:

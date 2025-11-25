@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 11
 # tags used by AI files
 description: Patch an existing `sets` resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: PATCH an existing set
+# Tutorial: Patch an existing set
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

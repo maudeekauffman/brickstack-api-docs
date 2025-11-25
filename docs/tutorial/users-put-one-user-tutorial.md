@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 22
 # tags used by AI files
 description: Put a `user` to an existing users resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: PUT an existing user
+# Tutorial: Put an existing user
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

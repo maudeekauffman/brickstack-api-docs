@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Reference docs
+nav_order: 5
 # tags used by AI files
 description: PATCH existing `collection` to the collection resource
 tags:

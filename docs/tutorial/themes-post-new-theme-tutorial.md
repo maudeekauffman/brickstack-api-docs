@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 15
 # tags used by AI files
 description: Post a `theme` to the themes resource
 tags:
@@ -24,7 +25,7 @@ last_updated: "2025-11-11"
 # markdownlint-enable
 ---
 
-# Tutorial: Post a theme
+# Tutorial: Post a new theme
 
 ![BrickStack Tutorial](../../images/tutorial.png "BrickStack Tutorial")
 

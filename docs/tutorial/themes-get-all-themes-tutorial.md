@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 13
 # tags used by AI files
 description: Get all `themes` from the themes resource
 tags:

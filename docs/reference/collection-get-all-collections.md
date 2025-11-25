@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Reference docs
+nav_order: 1
 # tags used by AI files
 description: GET all `collections` from the collection resource
 tags:

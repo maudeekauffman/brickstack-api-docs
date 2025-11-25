@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Reference docs
+nav_order: 8
 # tags used by AI files
 description: GET one `set` from the sets resource
 tags:

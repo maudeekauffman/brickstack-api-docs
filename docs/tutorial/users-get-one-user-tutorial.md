@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 20
 # tags used by AI files
 description: Get one `user` from the users resource
 tags:

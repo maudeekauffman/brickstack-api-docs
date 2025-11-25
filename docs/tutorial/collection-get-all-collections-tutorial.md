@@ -3,6 +3,7 @@
 # vale  off
 layout: default
 parent: Tutorials
+nav_order: 1
 # tags used by AI files
 description: Get all `collections` from the collection resource
 tags:
