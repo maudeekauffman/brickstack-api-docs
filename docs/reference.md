@@ -25,7 +25,7 @@ last_updated: "2025-11-08"
 
 # Reference docs
 
-![BrickStack Reference](../images/reference.png "BrickStack Reference")
+![BrickStack Reference](./images/reference.png "BrickStack Reference")
 
 Here is a list of reference documents for the BrickStack API.
 

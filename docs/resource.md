@@ -25,7 +25,7 @@ last_updated: "2025-11-08"
 
 # Resource docs
 
-![BrickStack Resource](../images/resource.png "BrickStack Resource")
+![BrickStack Resource](./images/resource.png "BrickStack Resource")
 
 Here is a list of resource documents for the BrickStack API.
 
