@@ -25,7 +25,7 @@ last_updated: "2025-11-08"
 
 # Tutorials
 
-![BrickStack Tutorials](./images/tutorial.png "BrickStack Tutorials")
+![BrickStack Tutorials](../images/tutorial.png "BrickStack Tutorials")
 
 Here is a list of tutorials for the BrickStack API.
 

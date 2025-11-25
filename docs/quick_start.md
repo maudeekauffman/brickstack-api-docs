@@ -28,7 +28,7 @@ last_updated: "2025-11-08"
 
 ## Introduction
 
-![BrickStack Quick Start](./images/quick_start.png "BrickStack Quick Start")
+![BrickStack Quick Start](../images/quick_start.png "BrickStack Quick Start")
 
 This document helps you to understand how to use the GET method to
 interact with sets on the BrickStack API.

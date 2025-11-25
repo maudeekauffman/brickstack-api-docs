@@ -24,7 +24,7 @@ last_updated: "2025-08-11"
 
 # BrickStack Setup
 
-![BrickStack Setup](./images/setup.png "BrickStack Setup")
+![BrickStack Setup](../images/setup.png "BrickStack Setup")
 
 These are the steps you must do before you can run
 the tutorials for the **BrickStack API**.
