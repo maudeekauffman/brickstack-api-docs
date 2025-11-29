@@ -34,7 +34,7 @@ the resources at a glance.
 
 In comparison to tutorials, the reference documents are less detailed.
 
-If you want more details, see the [tutorials page](../tutorial/index.md).
+If you want more details, see the [tutorials page](./tutorials.md).
 
 ## Reference docs for the `collection` resource
 

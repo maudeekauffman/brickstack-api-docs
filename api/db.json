@@ -7,7 +7,25 @@
       "joinDate": "2020-01-15",
       "collectionSize": 24,
       "favoriteTheme": "Icons"
-    }
+    },
+    {
+      "id": 4,
+      "name": "Bob Loblaw",
+      "email": "bob@example.com",
+      "joinDate": "2025-05-05",
+      "collectionSize": 25,
+      "favoriteTheme": "Icons"
+    },
+    [
+      {
+        "id": 2,
+        "name": "Scott Miller",
+        "email": "scott@example.com",
+        "joinDate": "2025-02-02",
+        "collectionSize": 12,
+        "favoriteTheme": "Icons"
+      }
+    ]
   ],
   "sets": [
     {
@@ -21,7 +39,11 @@
       "ageRange": "16+",
       "price": 324.99,
       "retired": true,
-      "tags": ["architecture", "landmark", "australia"]
+      "tags": [
+        "architecture",
+        "landmark",
+        "australia"
+      ]
     },
     {
       "id": 2,
@@ -34,7 +56,12 @@
       "ageRange": "18+",
       "price": 629.99,
       "retired": false,
-      "tags": ["architecture", "landmark", "paris", "record breaker"]
+      "tags": [
+        "architecture",
+        "landmark",
+        "paris",
+        "record breaker"
+      ]
     },
     {
       "id": 3,
@@ -47,7 +74,12 @@
       "ageRange": "18+",
       "price": 229.99,
       "retired": false,
-      "tags": ["architecture", "cathedral", "paris", "historical"]
+      "tags": [
+        "architecture",
+        "cathedral",
+        "paris",
+        "historical"
+      ]
     },
     {
       "id": 4,
@@ -60,7 +92,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["lighthouse", "motorized", "coastal", "lights"]
+      "tags": [
+        "lighthouse",
+        "motorized",
+        "coastal",
+        "lights"
+      ]
     },
     {
       "id": 5,
@@ -73,7 +110,12 @@
       "ageRange": "18+",
       "price": 299.99,
       "retired": false,
-      "tags": ["plants", "garden", "modular", "detailed"]
+      "tags": [
+        "plants",
+        "garden",
+        "modular",
+        "detailed"
+      ]
     },
     {
       "id": 6,
@@ -86,7 +128,12 @@
       "ageRange": "18+",
       "price": 299.99,
       "retired": false,
-      "tags": ["museum", "dinosaurs", "educational", "modular"]
+      "tags": [
+        "museum",
+        "dinosaurs",
+        "educational",
+        "modular"
+      ]
     },
     {
       "id": 7,
@@ -99,7 +146,12 @@
       "ageRange": "18+",
       "price": 399.99,
       "retired": false,
-      "tags": ["disney", "castle", "princess", "detailed"]
+      "tags": [
+        "disney",
+        "castle",
+        "princess",
+        "detailed"
+      ]
     },
     {
       "id": 8,
@@ -112,7 +164,12 @@
       "ageRange": "16+",
       "price": 349.99,
       "retired": true,
-      "tags": ["disney", "castle", "cinderella", "iconic"]
+      "tags": [
+        "disney",
+        "castle",
+        "cinderella",
+        "iconic"
+      ]
     },
     {
       "id": 9,
@@ -125,7 +182,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["train", "luxury", "historical", "mystery"]
+      "tags": [
+        "train",
+        "luxury",
+        "historical",
+        "mystery"
+      ]
     },
     {
       "id": 10,
@@ -138,7 +200,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["modular", "art deco", "hotel", "street"]
+      "tags": [
+        "modular",
+        "art deco",
+        "hotel",
+        "street"
+      ]
     },
     {
       "id": 11,
@@ -151,7 +218,12 @@
       "ageRange": "18+",
       "price": 229.99,
       "retired": false,
-      "tags": ["modular", "music", "1920s", "entertainment"]
+      "tags": [
+        "modular",
+        "music",
+        "1920s",
+        "entertainment"
+      ]
     },
     {
       "id": 12,
@@ -164,7 +236,12 @@
       "ageRange": "18+",
       "price": 229.99,
       "retired": false,
-      "tags": ["modular", "medieval", "tudor", "detailed"]
+      "tags": [
+        "modular",
+        "medieval",
+        "tudor",
+        "detailed"
+      ]
     },
     {
       "id": 13,
@@ -177,7 +254,12 @@
       "ageRange": "16+",
       "price": 179.99,
       "retired": true,
-      "tags": ["modular", "books", "cozy", "townhouse"]
+      "tags": [
+        "modular",
+        "books",
+        "cozy",
+        "townhouse"
+      ]
     },
     {
       "id": 14,
@@ -190,7 +272,12 @@
       "ageRange": "18+",
       "price": 249.99,
       "retired": true,
-      "tags": ["modular", "spooky", "fairground", "halloween"]
+      "tags": [
+        "modular",
+        "spooky",
+        "fairground",
+        "halloween"
+      ]
     },
     {
       "id": 15,
@@ -203,7 +290,12 @@
       "ageRange": "18+",
       "price": 229.99,
       "retired": false,
-      "tags": ["disney", "movie", "halloween", "witches"]
+      "tags": [
+        "disney",
+        "movie",
+        "halloween",
+        "witches"
+      ]
     },
     {
       "id": 16,
@@ -216,7 +308,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["disney", "princess", "cottage", "forest"]
+      "tags": [
+        "disney",
+        "princess",
+        "cottage",
+        "forest"
+      ]
     },
     {
       "id": 17,
@@ -229,7 +326,12 @@
       "ageRange": "16+",
       "price": 469.99,
       "retired": true,
-      "tags": ["harry potter", "castle", "school", "magical"]
+      "tags": [
+        "harry potter",
+        "castle",
+        "school",
+        "magical"
+      ]
     },
     {
       "id": 18,
@@ -242,7 +344,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["movie", "vampire", "forest", "house"]
+      "tags": [
+        "movie",
+        "vampire",
+        "forest",
+        "house"
+      ]
     },
     {
       "id": 19,
@@ -255,7 +362,12 @@
       "ageRange": "18+",
       "price": 149.99,
       "retired": false,
-      "tags": ["disney", "mermaid", "underwater", "book"]
+      "tags": [
+        "disney",
+        "mermaid",
+        "underwater",
+        "book"
+      ]
     },
     {
       "id": 20,
@@ -268,7 +380,12 @@
       "ageRange": "18+",
       "price": 179.99,
       "retired": false,
-      "tags": ["cabin", "nature", "cozy", "forest"]
+      "tags": [
+        "cabin",
+        "nature",
+        "cozy",
+        "forest"
+      ]
     },
     {
       "id": 21,
@@ -281,7 +398,12 @@
       "ageRange": "18+",
       "price": 269.99,
       "retired": false,
-      "tags": ["ship", "historical", "exploration", "antarctic"]
+      "tags": [
+        "ship",
+        "historical",
+        "exploration",
+        "antarctic"
+      ]
     },
     {
       "id": 22,
@@ -294,7 +416,12 @@
       "ageRange": "16+",
       "price": 279.99,
       "retired": true,
-      "tags": ["modular", "anniversary", "street", "detailed"]
+      "tags": [
+        "modular",
+        "anniversary",
+        "street",
+        "detailed"
+      ]
     },
     {
       "id": 23,
@@ -307,7 +434,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["shakespeare", "theatre", "london", "historical"]
+      "tags": [
+        "shakespeare",
+        "theatre",
+        "london",
+        "historical"
+      ]
     },
     {
       "id": 24,
@@ -320,7 +452,12 @@
       "ageRange": "18+",
       "price": 199.99,
       "retired": false,
-      "tags": ["vintage", "functional", "writing", "nostalgia"]
+      "tags": [
+        "vintage",
+        "functional",
+        "writing",
+        "nostalgia"
+      ]
     }
   ],
   "themes": [

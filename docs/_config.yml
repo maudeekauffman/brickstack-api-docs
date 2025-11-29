@@ -156,7 +156,7 @@ footer_content: "Copyright &copy; 2025 Scott Miller. Distributed by an <a href=\
 #             https://just-the-docs.com/docs/navigation/main/levels/
 #             https://just-the-docs.com/docs/navigation/main/ancestry/
 #
-has_toc: true
+has_toc: false
 #       Specifies whether to display the default ToC of child topics or not.
 #       A value of false supresses the default ToC.    
 #       See also https://just-the-docs.com/docs/navigation/children/

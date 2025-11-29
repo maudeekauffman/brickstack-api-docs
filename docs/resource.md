@@ -31,9 +31,12 @@ Here is a list of resource documents for the BrickStack API.
 
 Resources are parts of the API that you can interact with.
 
+If you want more details about how to interact with the resources,
+ see the [tutorials page](./tutorials.md).
+
 ## Links to Resource docs
 
 * [collection](./resource/collection.md)
 * [sets](./resource/sets.md)
 * [themes](./resource/themes.md)
-* [users](./resource/themes.md)
+* [users](./resource/users.md)

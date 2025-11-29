@@ -63,9 +63,15 @@ that are available on the API. The request that you make modifies the json datab
 [Browse all sets](./quick_start.md) - Use this guide to see how
 easy and fun BrickStack is to use!
 
+This document shows you how to use the `get` command to retrieve
+all sets or only 1 sets. Use the document to get a better
+understanding of what BrickStack does.
+
 ## Tutorials
 
-Learn how to do common tasks with BrickStack
+Learn how to do common tasks with BrickStack. These documents
+show you a step-by-step process about how to interact
+with the BrickStack API.
 
 First, read this tutorial to set up your development system for these tutorials.
 You only have to do this process one time per development system.
@@ -79,11 +85,24 @@ After your system is ready, read these tutorials to learn how to perform common 
 * [Add a new set](./tutorial/sets-post-new-set-tutorial.md)
 * [Get a specific collection (your collection, for example)](./tutorial/collection-get-one-collection-tutorial.md)
 
-## API reference docs
+## API Reference docs
 
-Detailed descriptions of the service's resources.
+At-a-glance documents that describe how to interact with
+the BrickStack API. These documents are not as detailed
+as the tutorial documents. Use the Reference docs to find
+something quickly.
 
-The API reference docs refer to a `{base_url}` when they
+[Click here to read the reference documents.](./reference.md)
+
+## API Resource docs
+
+Descriptions of the resources for the BrickStack API.
+
+Read these documents to get an idea of what the resources of the API
+are. These documents are a quick read, and the content is not as
+in-depth as a tutorial.
+
+The API resource docs refer to a `{base_url}` when they
 refer to the URL of a resource. The `{base_url}` value depends
 on the installation of the service.
 

@@ -44,12 +44,11 @@ long-term support, also known as _LTS_, version of the Windows, MacOS, or Linux 
 - The following software on your development system:
 - [Git, command line](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - [GitHub Desktop](https://desktop.github.com). This is optional, but recommended.
-- A fork of the [BrickStack repository](https://github.com/maudeekauffman/brickstack-api-docs)
+- A fork of the [BrickStack repository](https://github.com/scottmillerraleigh/brickstack-api-docs)
 - A [current or LTS version of `node.js`](https://nodejs.org/en/download)
 - Version 0.17.4 of [json-server](https://www.npmjs.com/package/json-server/v/0.17.4)
 - A current copy of the database file. You can get this by syncing your fork.
-  
-        **Tip**: if you're using a fork of the repository, create a working branch in which to
+        If you're using a fork of the repository, create a working branch in which to
         do your tutorials. Create a new branch for each tutorial to prevent a mistake in one from
         affecting your work in another.
 - The [Postman desktop app](https://www.postman.com/downloads/).
@@ -66,28 +65,28 @@ Create and checkout a test branch of your fork of the BrickStack repository.
 Your `GitHub repository workspace` is the directory that contains your fork of
 the `brickstack-api-docs` repository.
 
-    ```shell
-    cd `your GitHub repository workspace`
-    ls
-    # (see the BrickStack directory in the list)
-    cd brickstack-api-docs
-    cd api
-    json-server -w db.json
-    ```
+```shell
+cd `your GitHub repository workspace`
+ls
+# (see the BrickStack directory in the list)
+cd brickstack-api-docs
+cd api
+json-server -w db.json
+```
 
 If you installed the software correctly, you should see
 the service start and display the URL of the service: `http://localhost:3000`.
 
 Make a test call to the service.
 
-    ``shell
-    curl http://localhost:3000/sets/
-    ```
+```shell
+curl http://localhost:3000/sets/
+```
 
 If the service is running correctly, you should see a list of sets from the service,
 such as in this example.
 
-    ```js
+```js
     [
          {
       "id": 1,
@@ -116,7 +115,7 @@ such as in this example.
       "tags": ["architecture", "landmark", "paris", "record breaker"]
     }
      ]
-    ```
+```
 
 You should see the list of sets.
 If you receive an error in any step of the procedure, investigate, and correct the error before continuing.
@@ -128,4 +127,4 @@ Some common situations that cause errors include:
 4. A required software component isn't up to date.
 
 If you see the list of sets from the service, you're ready to do
-the [Tutorials](./tutorial/index.md/).
+the [Tutorials](./tutorials.md).
