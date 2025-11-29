@@ -73,8 +73,9 @@ Learn how to do common tasks with BrickStack. These documents
 show you a step-by-step process about how to interact
 with the BrickStack API.
 
-First, read this tutorial to set up your development system for these tutorials.
-You only have to do this process one time per development system.
+First, read this setup guide to set up your development system for
+these tutorials. You only have to do this process one time per
+development system.
 
 * [Setup](./setup.md)
 
