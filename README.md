@@ -30,4 +30,4 @@ last_updated: "2025-11-08"
 
 Welcome to `BrickStack!` BrickStack is an API that stores information about LEGO sets.
 
-Click to visit the [BrickStack API homepage](./docs/index.md)
+Click to visit the [BrickStack API homepage](https://scottmillerraleigh.github.io/brickstack-api-docs/)
